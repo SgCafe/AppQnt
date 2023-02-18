@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppQnt.MainPage" BackgroundColor="#121A28">
+
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="50">
+        <Label Text="Contandoooo..." x:Name="lblAlternativo" TextColor="#fff" FontSize="36" HorizontalTextAlignment="Center"/>
+        <Label Text="1" x:Name="lblQuantidade" FontSize="48" TextColor="#E1B825" HorizontalTextAlignment="Center"/>
+
+        <StackLayout Orientation="Horizontal" Spacing="38">
+            <Button Text="+" Clicked="Aumentar" CornerRadius="10" FontSize="48" BackgroundColor="#fff" BorderColor="#707070" WidthRequest="80" HeightRequest="80"/>
+            <Button Text="-" Clicked="Diminuir" CornerRadius="10" FontSize="48" BackgroundColor="#fff" BorderColor="#707070" WidthRequest="80" HeightRequest="80"/>
+            <Button Text="Clica vai" Clicked="Curioso" BackgroundColor="#fff" />
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
